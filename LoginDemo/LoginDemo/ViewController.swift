@@ -17,6 +17,7 @@ class ViewController: UIViewController {
 //        if let accessToken = AccessToken.current {
 //            // User is logged in, use 'accessToken' here.
 //        }
+        //Comment
         
         let loginButton = LoginButton(readPermissions: [ .publicProfile,.email, .userFriends  ])
         loginButton.center = view.center
